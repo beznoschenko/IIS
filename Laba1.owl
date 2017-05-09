@@ -1,0 +1,265 @@
+[ {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#O",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#ВІдбіркова_комісія",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_машинобудування",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Кафедра_природничо-наукової_гуманітарної_підготовки",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Кафедра_профейсійно_практичної_підготовки",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_З_Атестації_Педпрацівників",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_виробництва_та_обслуговування",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_загальнотехнічних_дисциплін",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_ливарного_виробництва_чорних_і_кольорових_металів",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_математики_і_фізики",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_мови_і_літератури",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_електропобутової_техніки",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_компютерних_систем_та_мереж",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_та_ремонту_обладнання_підприємств_хімічної_і_нафтогазопереробної_промисловості",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_машинобудування"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_правознавства,_економіки,_і_фінансів",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_суспільних_наук",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_технології_обробки_матеріалів_на_верстатах_і_автоматичних_лініях",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_машинобудування"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_фізичного_виховання_та_захисту_Вітчизни",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_хімії,_біології,_географії,_безпеки_життєдіяльності_та_екології",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_іноземної_мови",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"
+    }, {
+      "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"
+  } ]
+} ]
