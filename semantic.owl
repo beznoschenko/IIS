@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#ВІдбіркова_комісія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#ВІдбіркова_комісія">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_машинобудування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_машинобудування">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#III"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Кафедра_природничо-наукової_гуманітарної_підготовки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Кафедра_природничо-наукової_гуманітарної_підготовки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Кафедра_профейсійно_практичної_підготовки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Кафедра_профейсійно_практичної_підготовки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_З_Атестації_Педпрацівників -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_З_Атестації_Педпрацівників">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_виробництва_та_обслуговування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_виробництва_та_обслуговування">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_загальнотехнічних_дисциплін -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_загальнотехнічних_дисциплін">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_ливарного_виробництва_чорних_і_кольорових_металів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_ливарного_виробництва_чорних_і_кольорових_металів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_зварювання_та_металургії"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_математики_і_фізики -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_математики_і_фізики">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_мови_і_літератури -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_мови_і_літератури">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_електропобутової_техніки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_електропобутової_техніки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_компютерних_систем_та_мереж -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_компютерних_систем_та_мереж">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_компютерних_мереж_та_електропобутової_техніки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_та_ремонту_обладнання_підприємств_хімічної_і_нафтогазопереробної_промисловості -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_обслуговування_та_ремонту_обладнання_підприємств_хімічної_і_нафтогазопереробної_промисловості">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_машинобудування"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_суспільних_наук -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_суспільних_наук">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_технології_обробки_матеріалів_на_верстатах_і_автоматичних_лініях -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_технології_обробки_матеріалів_на_верстатах_і_автоматичних_лініях">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_машинобудування"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_фізичного_виховання_та_захисту_Вітчизни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_фізичного_виховання_та_захисту_Вітчизни">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_іноземної_мови -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_іноземної_мови">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Адміністративна_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Бібліотека"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Виробнича_майстерня"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Господарча_частина"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Методична_рада"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Навчальна_частина"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Педагогічна_рада">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Директор"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_правознавства,_економіки,_і_фінансів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_правознавства,_економіки,_і_фінансів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Відділення_економіки_та_права"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_хімії,_біології,_географії,_безпеки_життєдіяльності_та_екології -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Комісія_з_хімії,_біології,_географії,_безпеки_життєдіяльності_та_екології">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#Автомобільне_Відділення"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#O -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-9#O"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
