@@ -1,0 +1,1346 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.1), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.3]",
+  "header": {
+    "baseIris": [
+      "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15"
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 32,
+    "objectPropertyCount": 0,
+    "datatypePropertyCount": 0,
+    "individualCount": 0
+  },
+  "settings": {
+    "global": {
+      "zoom": 1,
+      "translation": [
+        0,
+        0
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:disjointUnionOf"
+    },
+    {
+      "id": "11",
+      "type": "owl:disjointUnionOf"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:disjointUnionOf"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:disjointUnionOf"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:disjointUnionOf"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_zagalnotehnichnih_disciplin",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_zagalnotehnichnih_disciplin"
+      },
+      "id": "3",
+      "superClasses": [
+        "4"
+      ],
+      "pos": [
+        -471.6315302813149,
+        174.55609726405024
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Vidbirkova_komisiya",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Vidbirkova_komisiya"
+      },
+      "id": "5",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        -59.74638209443496,
+        -244.29704632493312
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_virobnictva_ta_obslugovuvannya",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_virobnictva_ta_obslugovuvannya"
+      },
+      "id": "7",
+      "superClasses": [
+        "4"
+      ],
+      "pos": [
+        -526.6209546190074,
+        326.28427379726674
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Virobnicha_maysternya",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "disjointUnion": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "label": {
+        "IRI-based": "Virobnicha_maysternya"
+      },
+      "attributes": [
+        "disjointUnion"
+      ],
+      "id": "8",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        909.9804552376919,
+        -65.5757465389122
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Biblioteka",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "disjointUnion": [
+        "9",
+        "10",
+        "12",
+        "13",
+        "8",
+        "14"
+      ],
+      "label": {
+        "IRI-based": "Biblioteka"
+      },
+      "attributes": [
+        "disjointUnion"
+      ],
+      "id": "11",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        629.714552422632,
+        206.1839046208368
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_atestacii_pedpracivnikiv",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_atestacii_pedpracivnikiv"
+      },
+      "id": "17",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        255.21872794768927,
+        -482.4046540142392
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Viddilennya_mashinobuduvannya",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Viddilennya_mashinobuduvannya"
+      },
+      "subClasses": [
+        "24",
+        "25"
+      ],
+      "id": "22",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        230.28343784102094,
+        780.0437839441228
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_matematici_i_fiziki",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_matematici_i_fiziki"
+      },
+      "id": "26",
+      "superClasses": [
+        "27"
+      ],
+      "pos": [
+        855.151755893184,
+        1021.4306784628106
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_movi_i_literaturi",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_movi_i_literaturi"
+      },
+      "id": "31",
+      "superClasses": [
+        "32"
+      ],
+      "pos": [
+        -71.01097592311132,
+        177.68428736927558
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Navchalna_chastina",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "disjointUnion": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "8"
+      ],
+      "label": {
+        "IRI-based": "Navchalna_chastina"
+      },
+      "attributes": [
+        "disjointUnion"
+      ],
+      "id": "9",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        701.6300000212124,
+        258.34688835098433
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_obslugovuvannya_ta_remontu_obladnannya_pidpriemstv_himichnoi_i_naftogazopererobnoyi_promislovosti",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_obslugovuvannya_ta_remontu_obladnannya_pidpriemstv_himichnoi_i_naftogazopererobnoyi_promislovosti"
+      },
+      "id": "24",
+      "superClasses": [
+        "22"
+      ],
+      "pos": [
+        245.950010435119,
+        1151.968775884771
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_suspilnih_nauk",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_suspilnih_nauk"
+      },
+      "id": "39",
+      "superClasses": [
+        "32"
+      ],
+      "pos": [
+        754.2840679463479,
+        50.554791950041725
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_zhimii,_biologii,_geografii,_bezpeki_zhittediyalnosti_ta_ecologii",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_zhimii,_biologii,_geografii,_bezpeki_zhittediyalnosti_ta_ecologii"
+      },
+      "id": "36",
+      "superClasses": [
+        "4"
+      ],
+      "pos": [
+        -359.240594590919,
+        686.4173125524136
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_tehnologii_obrobki_materialiv_na_verstatah_i_avtomatichnih_liniyah",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_tehnologii_obrobki_materialiv_na_verstatah_i_avtomatichnih_liniyah"
+      },
+      "id": "25",
+      "superClasses": [
+        "22"
+      ],
+      "pos": [
+        428.5664848325757,
+        1096.0370174386958
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Gospodarcha_chastina",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "disjointUnion": [
+        "9",
+        "11",
+        "12",
+        "13",
+        "8",
+        "14"
+      ],
+      "label": {
+        "IRI-based": "Gospodarcha_chastina"
+      },
+      "attributes": [
+        "disjointUnion"
+      ],
+      "id": "10",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        911.074036824895,
+        -15.533013474347952
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Administrativna_rada",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Administrativna_rada"
+      },
+      "id": "12",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        540.6159903906553,
+        -157.3533570050483
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Viddilennya_economici_ta_prava",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Viddilennya_economici_ta_prava"
+      },
+      "subClasses": [
+        "39",
+        "60",
+        "51",
+        "31",
+        "54"
+      ],
+      "id": "32",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        285.9511476508342,
+        49.30366101350773
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Director",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Director"
+      },
+      "subClasses": [
+        "23",
+        "11",
+        "10",
+        "9",
+        "17",
+        "5",
+        "12",
+        "13",
+        "8",
+        "14"
+      ],
+      "id": "6",
+      "pos": [
+        318.3475159483264,
+        -82.34018596242711
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#III",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "disjointUnion": [
+        "12",
+        "13",
+        "14"
+      ],
+      "label": {
+        "IRI-based": "III"
+      },
+      "subClasses": [
+        "32",
+        "27",
+        "2",
+        "4",
+        "22"
+      ],
+      "attributes": [
+        "disjointUnion"
+      ],
+      "id": "23",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        348.7494890803172,
+        320.4369715270093
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Viddilennya_komputernih_mereg_ta_electropobutovoi_tehniki",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Viddilennya_komputernih_mereg_ta_electropobutovoi_tehniki"
+      },
+      "subClasses": [
+        "34",
+        "26",
+        "38"
+      ],
+      "id": "27",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        558.3513046531343,
+        781.098503862201
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_inozemnoi_movi",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_inozemnoi_movi"
+      },
+      "id": "60",
+      "superClasses": [
+        "32"
+      ],
+      "pos": [
+        -81.50173351222057,
+        -2.0926318117396705
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_obslugovuvannya_electropobutovoi_tehniki",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_obslugovuvannya_electropobutovoi_tehniki"
+      },
+      "id": "34",
+      "superClasses": [
+        "27"
+      ],
+      "pos": [
+        924.3511077972893,
+        892.4482326426169
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Avtomobilne_viddilennya",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Avtomobilne_viddilennya"
+      },
+      "subClasses": [
+        "36",
+        "3",
+        "7"
+      ],
+      "id": "4",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        -161.66522611700714,
+        384.3744271131713
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Metodichna_rada",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Metodichna_rada"
+      },
+      "id": "13",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        589.250087164441,
+        -171.03230084929402
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Pedagogichna_rada",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Pedagogichna_rada"
+      },
+      "id": "14",
+      "superClasses": [
+        "6"
+      ],
+      "pos": [
+        566.214725616527,
+        -232.07984877044407
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_obslugovuvannya_komputernih_sistem_ta_mereg",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_obslugovuvannya_komputernih_sistem_ta_mereg"
+      },
+      "id": "38",
+      "superClasses": [
+        "27"
+      ],
+      "pos": [
+        676.382095325163,
+        1138.5008859635313
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Kafedra_profesiyno-practichnoi_pidgotovki",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Kafedra_profesiyno-practichnoi_pidgotovki"
+      },
+      "id": "16",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        1198.0957215719043,
+        454.91414309620853
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_pravoznavstva,_economiki_i_finansiv",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_pravoznavstva,_economiki_i_finansiv"
+      },
+      "id": "54",
+      "superClasses": [
+        "32"
+      ],
+      "pos": [
+        735.7497128116312,
+        -39.25813710193989
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_livarnogo_virobnictva_chornih_i_colorovih_metaliv",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_livarnogo_virobnictva_chornih_i_colorovih_metaliv"
+      },
+      "id": "19",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        675.0496202338659,
+        893.6270368268963
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Viddilennya_zvaruvannya_ta_metalurgii",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Viddilennya_zvaruvannya_ta_metalurgii"
+      },
+      "subClasses": [
+        "19",
+        "16",
+        "1"
+      ],
+      "id": "2",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        821.5477007551508,
+        561.2261315581748
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Komisiya_z_fizichnogo_vihovannya_ta_zahistu_Vitchizni",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Komisiya_z_fizichnogo_vihovannya_ta_zahistu_Vitchizni"
+      },
+      "id": "51",
+      "superClasses": [
+        "32"
+      ],
+      "pos": [
+        453.4371224232873,
+        474.86660425379307
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15#Kafedra_prirodnicho-naukovoi_gumanitarnoi_pidgotovki",
+      "baseIri": "http://www.semanticweb.org/beila/ontologies/2017/4/untitled-ontology-15",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Kafedra_prirodnicho-naukovoi_gumanitarnoi_pidgotovki"
+      },
+      "id": "1",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        1202.2018975007684,
+        624.1514693454374
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "15",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "20",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "28",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "29",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "41",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "44",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "45",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "46",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "47",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "48",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "49",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "50",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "52",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "55",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "56",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "58",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "59",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "61",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "62",
+      "type": "rdfs:SubClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "range": "2",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "0",
+      "pos": [
+        1011.8747991279597,
+        592.6888004518061
+      ]
+    },
+    {
+      "range": "2",
+      "domain": "16",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "15",
+      "pos": [
+        1009.8217111635275,
+        508.0701373271917
+      ]
+    },
+    {
+      "range": "2",
+      "domain": "19",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "18",
+      "pos": [
+        748.2986604945083,
+        727.4265841925355
+      ]
+    },
+    {
+      "range": "4",
+      "domain": "7",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "20",
+      "pos": [
+        -344.1430903680073,
+        355.329350455219
+      ]
+    },
+    {
+      "range": "4",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "21",
+      "pos": [
+        -316.648378199161,
+        279.4652621886108
+      ]
+    },
+    {
+      "range": "22",
+      "domain": "25",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "28",
+      "pos": [
+        329.42496133679833,
+        938.0404006914093
+      ]
+    },
+    {
+      "range": "22",
+      "domain": "24",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "29",
+      "pos": [
+        238.11672413806997,
+        966.006279914447
+      ]
+    },
+    {
+      "range": "27",
+      "domain": "26",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "30",
+      "pos": [
+        706.7515302731592,
+        901.2645911625058
+      ]
+    },
+    {
+      "range": "27",
+      "domain": "34",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "33",
+      "pos": [
+        741.3512062252119,
+        836.773368252409
+      ]
+    },
+    {
+      "range": "4",
+      "domain": "36",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "35",
+      "pos": [
+        -260.4529103539631,
+        535.3958698327924
+      ]
+    },
+    {
+      "range": "27",
+      "domain": "38",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "37",
+      "pos": [
+        617.3666999891486,
+        959.7996949128661
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "40",
+      "pos": [
+        93.54213148165502,
+        352.4056993200903
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "2",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "41",
+      "pos": [
+        585.148594917734,
+        440.831551542592
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "22",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "42",
+      "pos": [
+        289.51646346066906,
+        550.240377735566
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "14",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "43",
+      "pos": [
+        442.2811207824267,
+        -157.21001736643558
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "8",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "44",
+      "pos": [
+        614.1639855930091,
+        -73.95796625066966
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "27",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "45",
+      "pos": [
+        453.55039686672575,
+        550.7677376946052
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "32",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "46",
+      "pos": [
+        317.3503183655757,
+        184.8703162702585
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "5",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "47",
+      "pos": [
+        129.30056692694572,
+        -163.31861614368012
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "13",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "48",
+      "pos": [
+        453.7988015563837,
+        -126.68624340586057
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "49",
+      "pos": [
+        429.48175316949084,
+        -119.84677148373771
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "51",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "50",
+      "pos": [
+        369.69413503706073,
+        262.0851326336504
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "31",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "52",
+      "pos": [
+        107.47008586386143,
+        113.49397419139166
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "54",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "53",
+      "pos": [
+        510.8504302312327,
+        5.0227619557839205
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "23",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "55",
+      "pos": [
+        333.5485025143218,
+        119.04839278229107
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "56",
+      "pos": [
+        474.03103418547914,
+        61.92185932920485
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "10",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "57",
+      "pos": [
+        614.7107763866106,
+        -48.936599718387534
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "9",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "58",
+      "pos": [
+        509.98875798476934,
+        88.00335119427861
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "17",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "59",
+      "pos": [
+        286.7831219480079,
+        -282.37241998833315
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "61",
+      "pos": [
+        520.117607798591,
+        49.92922648177473
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "60",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "62",
+      "pos": [
+        102.2247070693068,
+        23.605514600884028
+      ]
+    }
+  ]
+}
